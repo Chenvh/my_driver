@@ -1,0 +1,8 @@
+/home/cwh/imx6ull/kernel/arch/arm/include
+/home/cwh/imx6ull/kernel/arch/arm/include/generated
+/home/cwh/imx6ull/kernel/include
+/home/cwh/imx6ull/kernel/tools/virtio
+/home/cwh/imx6ull/kernel/arch/um/include/asm
+/home/cwh/imx6ull/kernel/include/uapi
+/home/cwh/imx6ull/kernel/arch/arm/include/generated/uapi
+/home/cwh/imx6ull/kernel/arch/um/include

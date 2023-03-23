@@ -1,0 +1,15 @@
+obj-m += led_drv.o
+obj-y += led.o
+KERN_PATH=/home/chen/imx6ull/kernel
+
+all:
+	arm-linux-gnueabihf-gcc led_test.c -o led
+	make -C $(KERN_PATH) M=$(PWD) modules
+
+app:
+	arm-linux-gnueabihf-gcc led_test.c -o led
+
+clean:
+	make -C $(KERN_PATH) M=$(PWD) clean
+	rm led
+	
