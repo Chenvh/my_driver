@@ -12,7 +12,9 @@
                 "/home/chen/imx6ull/kernel/arch/alpha/include",
                 "/home/chen/imx6ull/kernel/arch/arm/include/generated",
                 "/home/chen/imx6ull/kernel/arch/x86/include/asm",
-                "/home/chen/imx6ull/kernel/arch/arm/mach-gemini/include"
+                "/home/chen/imx6ull/kernel/arch/arm/mach-gemini/include",
+                "/home/chen/imx6ull/kernel/arch/xtensa/include",
+                "/home/chen/imx6ull/kernel/arch/xtensa/include/uapi/asm/"
             ],
             "defines": [],
             "compilerPath": "/usr/local/arm/gcc-arm-gnueabihf/bin/arm-linux-gnueabihf-gcc",

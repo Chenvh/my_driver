@@ -1,0 +1,10 @@
+*.cmd
+*.ko
+*.mod*
+*.o
+*.symvers
+*.order
+.tmp_versions/
+App*
+tags
+.vscode/

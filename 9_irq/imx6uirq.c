@@ -225,7 +225,7 @@ static int imx6uirq_open (struct inode *inode, struct file *filp)
 
     if (releasekey) {   // 有按键按下
         if (keyvalue & 0x80) {
-            keyvalue &= 0x80;
+            keyvalue &= ~0x80;
             ret = copy_to_user (buf, &keyvalue, sizeof(keyvalue));
             sta = !sta;
             gpio_set_value (dev->led_gpio, sta);    // 实现LED反转            
